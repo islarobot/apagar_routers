@@ -1,0 +1,106 @@
+1587537186934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXhKXVY"
+1587537188017	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537188545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537188545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537188546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537188546	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537193390	Marionette	INFO	Listening on port 33973
+1587537193475	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+JavaScript warning: https://securenet.vodafone.es/js/icon_es.js?preview=0&policystate=1&modality=family&client=SrFZ18u%2BLlmfr63spQ34UEmdCAOHSSYfiXDa1jcf7KQ%2FwHprnsF7CmQuXGt1WRdd&view=default, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1587537199174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilee36uPi"
+1587537199787	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537200726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537200726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537200726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537200726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537206390	Marionette	INFO	Listening on port 39933
+1587537206446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1587537223763	Marionette	INFO	Stopped listening on port 39933
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+1587537261329	Marionette	INFO	Stopped listening on port 33973
+1587537322662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehdFyFZ"
+1587537323171	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537323701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537323701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537323701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537323701	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537328003	Marionette	INFO	Listening on port 44023
+1587537328040	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+1587537351386	Marionette	INFO	Stopped listening on port 44023
+1587537413225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSwSgYA"
+1587537413797	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537414536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537414536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537414537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537414537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537419066	Marionette	INFO	Listening on port 46229
+1587537419112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+1587537438467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGjkHLA"
+1587537439003	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537439623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537439624	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537439624	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537439624	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537443944	Marionette	INFO	Listening on port 34261
+1587537444063	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+1587537547695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOeu5pz"
+1587537548310	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537549014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537549014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537549015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537549015	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537556928	Marionette	INFO	Listening on port 46599
+1587537556968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+1587537578749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7hnEJi"
+1587537579855	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537580930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537580930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537580930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537580930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537589463	Marionette	INFO	Listening on port 34031
+1587537589552	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+1587537672689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehsE9IW"
+1587537673935	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537675167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537675167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537675167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537675167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537678763	Marionette	INFO	Stopped listening on port 34031
+1587537678962	Marionette	INFO	Stopped listening on port 34261
+1587537684284	Marionette	INFO	Listening on port 33707
+1587537684357	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 378: NS_ERROR_XPC_SECURITY_MANAGER_VETO: 
+1587537686959	Marionette	INFO	Stopped listening on port 46599
+1587537690686	Marionette	INFO	Stopped listening on port 33707
+1587537692635	Marionette	INFO	Stopped listening on port 46229
+1587537696214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileA09O8M"
+1587537696798	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587537697373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587537697373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587537697373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587537697373	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587537702224	Marionette	INFO	Listening on port 38187
+1587537702278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.0.1/comm/jquery.min.js, line 19: TypeError: document.body is null
+JavaScript warning: http://192.168.0.1/comm/jquery.min.js, line 19: unreachable code after return statement
+1587538401853	Marionette	INFO	Stopped listening on port 38187
