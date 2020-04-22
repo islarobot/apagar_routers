@@ -34,27 +34,28 @@ wait = WebDriverWait(driver, 2)
 frame1 = driver.find_element_by_name('fInfo')
 driver.switch_to_frame(frame1)
 
-wifi = driver.find_element_by_id("wifi_menu_href")
+system = driver.find_element_by_id("sys_menu_href")
 
 
 
-wifi.click()
+system.click()
 
-enable2G = driver.find_element_by_name("enablemode")
-apply_button = driver.find_element_by_id("apply")
-#disable
-if(enable2G.is_selected()):
-	enable2G.click()
-	#apply_button.click()
+
+reboot_menu = driver.find_element_by_id("tools_backup_setting_href")
+
+reboot_menu.click()
+
+
 
 wait = WebDriverWait(driver, 5)
-wifi2G = driver.find_element_by_id("wifi_2g_href")
-wifi2G.click()
-enable2G_2 = driver.find_element_by_name("enablemode")
-apply_button = driver.find_element_by_id("apply")
-if(enable2G_2.is_selected()):
-	enable2G_2.click()
-	#apply_button.click()
+reboot_button = driver.find_element_by_id("reboot")
+reboot_button.click()
+
+obj = driver.switch_to.alert
+obj.accept()
+wait = WebDriverWait(driver, 2)
+obj = driver.switch_to.alert
+obj.accept()
 	
 driver.get('http://admin:238500@192.168.0.2')
 
@@ -84,4 +85,4 @@ reboot.click()
 obj = driver.switch_to.alert
 obj.accept()
 
-driver.close()
+#driver.close()

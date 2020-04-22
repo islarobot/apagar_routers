@@ -43,7 +43,7 @@ wifi.click()
 enable2G = driver.find_element_by_name("enablemode")
 apply_button = driver.find_element_by_id("apply")
 #disable
-if(enable2G.is_selected()):
+if(!enable2G.is_selected()):
 	enable2G.click()
 	#apply_button.click()
 
@@ -52,7 +52,7 @@ wifi2G = driver.find_element_by_id("wifi_2g_href")
 wifi2G.click()
 enable2G_2 = driver.find_element_by_name("enablemode")
 apply_button = driver.find_element_by_id("apply")
-if(enable2G_2.is_selected()):
+if(!enable2G_2.is_selected()):
 	enable2G_2.click()
 	#apply_button.click()
 	
@@ -63,14 +63,12 @@ juan = driver.find_element_by_name('bottomLeftFrame')
 
 driver.switch_to_frame(juan)
 
-click = driver.find_element_by_id("a45")
+click = driver.find_element_by_id("a9")
 click.click()
 
-click = driver.find_element_by_id("a51")
-click.click()
 driver.switch_to.default_content()
 
-wait = WebDriverWait(driver, 5)
+
 
 
 juan1 = driver.find_element_by_name('mainFrame')
@@ -78,10 +76,8 @@ juan1 = driver.find_element_by_name('mainFrame')
 driver.switch_to_frame(juan1)
 
 
-reboot = driver.find_element_by_name("Reboot")
-reboot.click()
-
-obj = driver.switch_to.alert
-obj.accept()
-
-driver.close()
+enable2G = driver.find_element_by_name("ap")
+apply_button = driver.find_element_by_id("Save")
+if(!enable2G.is_selected()):
+	enable2G.click()
+	apply_button.click()
