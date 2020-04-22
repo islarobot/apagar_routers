@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import unittest
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -43,7 +44,7 @@ wifi.click()
 enable2G = driver.find_element_by_name("enablemode")
 apply_button = driver.find_element_by_id("apply")
 #disable
-if(!enable2G.is_selected()):
+if(!enable2G.is_selected() and (router == 1 or router == 0)):
 	enable2G.click()
 	#apply_button.click()
 
@@ -52,7 +53,7 @@ wifi2G = driver.find_element_by_id("wifi_2g_href")
 wifi2G.click()
 enable2G_2 = driver.find_element_by_name("enablemode")
 apply_button = driver.find_element_by_id("apply")
-if(!enable2G_2.is_selected()):
+if(!enable2G_2.is_selected() and (router == 1 or router == 0)):
 	enable2G_2.click()
 	#apply_button.click()
 	
@@ -78,6 +79,6 @@ driver.switch_to_frame(juan1)
 
 enable2G = driver.find_element_by_name("ap")
 apply_button = driver.find_element_by_id("Save")
-if(!enable2G.is_selected()):
+if(!enable2G.is_selected() and (router == 1 or router == 0)):
 	enable2G.click()
 	apply_button.click()
