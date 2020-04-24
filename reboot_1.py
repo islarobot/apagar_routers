@@ -1,12 +1,20 @@
 #!/usr/bin/env python
 
 import time
+import datetime
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 from selenium.webdriver.chrome.options import Options
+
+log_file = open("/home/yago/log_routers.log","a")
+
+ts = time.time()
+sttime = datetime.datetime.fromtimestamp(ts).strftime('%Y%m%d_%H:%M:%S - ')
+
+
 
 chrome_options = Options()
 
@@ -18,7 +26,7 @@ chrome_options.add_argument("--headless")
 
 chrome_options.add_argument("--no-sandbox")
 
-driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome('/usr/local/bin/chromedriver',options=chrome_options)
 
 
 
@@ -88,4 +96,13 @@ obj.accept()
 
 time.sleep(2)
 
+log_file.write("\n"+sttime+"___Reboot 1__todoOk")
+
+
 driver.close()
+
+time.sleep(2)
+
+log_file.close()
+
+

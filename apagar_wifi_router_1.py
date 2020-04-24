@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import time
-
+import datetime
 import unittest
 import sys
 from selenium import webdriver
@@ -9,6 +9,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 from selenium.webdriver.chrome.options import Options
+
+log_file = open("/home/yago/log_routers.log","a")
+
+ts = time.time()
+sttime = datetime.datetime.fromtimestamp(ts).strftime('%Y%m%d_%H:%M:%S - ')
 
 chrome_options = Options()
 
@@ -20,7 +25,7 @@ chrome_options.add_argument("--headless")
 
 chrome_options.add_argument("--no-sandbox")
 
-driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome('/usr/local/bin/chromedriver',options=chrome_options)
 
 
 
@@ -64,6 +69,8 @@ wifi = driver.find_element_by_id("wifi_menu_href")
 
 wifi.click()
 
+
+
 time.sleep(2)
 
 enable2G = driver.find_element_by_name("enablemode")
@@ -93,7 +100,13 @@ time.sleep(2)
 
 #time.sleep(2)
 
+log_file.write("\n"+sttime+"___Apagando Wifi 1__todoOk")
+
 driver.quit()
 
+time.sleep(2)
+
+
+log_file.close()
 
 
